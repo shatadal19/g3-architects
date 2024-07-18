@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+font-family: "Work Sans", sans-serif;
 }
   
 html,body{
 height: 100%;
 width: 100%;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-items{
+    list-style: none;
+    
+}
+
+.nav-items a{
+    text-decoration: none;
 }
